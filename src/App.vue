@@ -18,12 +18,19 @@
     </v-app-bar>
 
     <v-main>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/> 
       <Header/>
       <v-container>
-
-        <v-spacer />
-        <v-spacer />
-        <v-tabs v-model="tab" background-color="transparent" color="basil" grow>
+        <v-tabs v-model="tab" background-color="transparent" grow>
           <v-tab v-for="item in items" :key="item">
             {{ item }}
           </v-tab>
